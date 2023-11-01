@@ -1,0 +1,184 @@
+body {
+    background-image: url(../../image/tiger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+#navigation_module {
+    border: 1px solid black;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+#flex-module {
+    border: 1px solid black;
+    width: 98%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#left_content {
+    color: whitesmoke;
+    width: 70%;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#right_content {
+
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content-item1 {
+    border: 1px solid black;
+    
+    color: whitesmoke;
+    height: 50px;
+    width: 150px;
+    transition: 0.5s;
+
+}
+
+.content-item1:hover {
+    border: 1px solid whitesmoke;
+    background-color: gray;
+    color: black;
+    border-radius: 2px;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#flexitem {
+    border: 1px solid black;
+    height: 80px;
+
+}
+
+.content-item2 {
+    height: 50px;
+    width: 150px;
+    transition: 0.2s;
+    background-color: palevioletred;
+
+}
+
+.content-item2:hover {
+    font-size: 20px;
+    transform: scale(1.1);
+    background-color: gray;
+    color: black;
+}
+#create-login {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px yellow;
+    height: 500px;
+    width: 700px;
+    margin-left: 780px;
+    margin-top: 50px;
+    animation-name: light;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+}
+
+@keyframes light {
+
+    0% {
+        box-shadow: -5px 5px 5px 5px yellow;
+    }
+
+    25% {
+        box-shadow: 5px -5px 5px 5px pink;
+    }
+
+    50% {
+        box-shadow: 5px 5px -5px 5px sandybrown;
+    }
+
+    100% {
+        box-shadow: 5px 5px 5px -5px blue;
+    }
+
+
+}
+
+
+#header {
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#form1 {
+    color: whitesmoke;
+    justify-content: space-evenly;
+    line-height: 50px;
+    display: flex;
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+#form2 {
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+i {
+    
+    color:blue;
+    margin-left: -30px;
+}
+i:hover{
+    color: brown;
+}
+#eye{
+    
+    color:blue;
+    margin-left: -5px;
+}
+
+#form3 {
+
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+input {
+    border: 2px solid yellow;
+    height: 25px;
+    width: 250px;
+}
+
+#submit {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    background-color: red;
+}
